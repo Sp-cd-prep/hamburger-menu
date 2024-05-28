@@ -47,27 +47,16 @@
   }
   /*Container for menu button  */
   .menu-button-container {
-    /* display: none; */
-    /* height: 100%; */
+    display: none;
     width: 30px;
     cursor: pointer;
-    /* flex-direction: column;
-    justify-content: center;
-    align-items: center; */
   }
 
 
-  h2::before{
-    content: '😎';
-  }
-
-  h2::after{
-    content: '😭';
-  }
 
   
   #menu-toggle {
-    /* display: none; */
+    display: none;
   }
   
   /*  Creating the menu button */
@@ -147,10 +136,6 @@
       transition: all 1s ease;
       
     }
-    /* .menu > li:not(:last-child) {
-      border-bottom: 1px solid #444;
-   
-    } */
   }
   
   
